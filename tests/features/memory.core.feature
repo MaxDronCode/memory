@@ -39,10 +39,10 @@ Feature: Memory
       Then the grid should have "3" rows and "4" columns
 
     Scenario: Starting the Game - All cards should be covered
-      Then all the cards are covered
+      Then all the cards should be covered
 
     Scenario: Starting the Game - All the cards should be enabled
-      Then all the cards are enabled
+      Then all the cards should be enabled
     
     Scenario: Uncovering a card with the mouse - Using mouse left click
       Given the player loads the following mock data:
