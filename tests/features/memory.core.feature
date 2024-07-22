@@ -14,10 +14,7 @@ Feature: Memory
     To define the card we'll use:
     - [1-6] to determine to which pair the card belongs
 
-    There are two ways to define the mock data:
-    - Inline:
-    "1234-1566-5342"
-    - Table:
+    This is the way to define the mock data:
     | 1 | 2 | 3 | 4 |
     | 1 | 5 | 6 | 6 |
     | 5 | 3 | 2 | 4 |
