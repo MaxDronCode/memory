@@ -1,0 +1,11 @@
+yarn set version berry
+yarn create jest@latest
+Y
+n
+jsdom
+no
+v8
+no
+yarn add -D jest-cucumber
+
+// Configuración Husky
